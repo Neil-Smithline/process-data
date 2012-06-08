@@ -1,0 +1,203 @@
+  PID STAT      TIME  ELAPSED      VSZ    RSS  %CPU %MEM COMM
+   44 Us     0:07.06 15:58:19  2503588  28936   0.3  0.7 /System/Library/CoreServices/coreservicesd
+   47 Ss     0:00.85 15:58:19  2435292   1128   0.0  0.0 /usr/sbin/ntpd
+   48 Ss     0:00.72 15:58:19  2458752   2796   0.0  0.1 /usr/sbin/cupsd
+   49 Ss     0:00.21 15:58:19  2436420   1392   0.0  0.0 /usr/sbin/nmbd
+   50 Ss     0:00.17 15:58:19  2447428   1956   0.0  0.0 /usr/sbin/krb5kdc
+   51 Ss     0:00.07 15:58:19  2436128    888   0.0  0.0 /usr/sbin/cron
+   54 Ss     0:00.09 15:58:19  2460916   2128   0.0  0.1 MobileDevice.framework/Versions/A/Resources/usbmuxd
+   55 Ss     0:00.06 15:58:19  2436608    976   0.0  0.0 /sbin/SystemStarter
+   60 Us     3:25.97 15:58:19  3324668  87016   0.0  2.1 Metadata.framework/Support/mds
+   61 Ss     2:43.88 15:58:19  2818988  12652   0.0  0.3 loginwindow.app/Contents/MacOS/loginwindow
+   62 Ss     0:00.13 15:58:19  2437712    992   0.0  0.0 /usr/sbin/KernelEventAgent
+   64 Ss     1:57.38 15:58:19  2448300   1576   0.4  0.0 /usr/libexec/hidd
+   65 Us     0:02.48 15:58:19  2453200   2272   0.0  0.1 CarbonCore.framework/Versions/A/Support/fseventsd
+   67 Us     0:00.67 15:58:19  2434864    788   0.0  0.0 /sbin/dynamic_pager
+   73 Ss     0:00.06 15:58:19  2446832    988   0.0  0.0 autofsd
+   76 RNs    5:33.56 15:58:19  3296384 140220   0.7  3.3 /usr/bin/java
+  102 Us     7:42.93 15:58:17  3344444 186100   1.3  4.4 CoreGraphics.framework/Resources/WindowServer
+  130 Ss     0:00.01 15:58:11  2438720    848   0.0  0.0 OpenGL.framework/Versions/A/Libraries/cvmsServ
+  141 Ss     0:00.51 15:58:08  2456160   5184   0.0  0.1 /usr/sbin/coreaudiod
+  170 Us     0:01.52 05:34:21  2456544   1204   0.0  0.0 /sbin/launchd
+  208 S      2:16.41 05:34:19  2825924  34692   0.0  0.8 Dock.app/Contents/MacOS/Dock
+  209 S      0:03.04 05:34:19  2773252  17724   0.0  0.4 SystemUIServer.app/Contents/MacOS/SystemUIServer
+  210 U      0:33.76 05:34:19  3024460 126736   0.5  3.0 Finder.app/Contents/MacOS/Finder
+  232 S      0:00.01 05:34:14  2436092    844   0.0  0.0 /usr/sbin/pboard
+  234 U      0:03.99 05:34:14  2495620   4144   0.0  0.1 ATS.framework/Support/fontd
+  244 U      0:00.75 05:34:13  2739292   7188   0.0  0.2 /usr/libexec/UserEventAgent
+  251 S      0:00.13 05:34:13  2750356   5736   0.0  0.1 AirPort Base Station Agent.app/Contents/MacOS/AirPort Base Station Agent
+  252 S      0:01.25 05:34:13   392484   5464   0.0  0.1 ControllerMateHelper.app/Contents/MacOS/ControllerMateHelper
+  254 S      0:00.01 05:34:13  2435544    644   0.0  0.0 bash
+  274 S      0:00.23 05:33:54 11151024   6452   0.0  0.2 GrowlMenu.app/Contents/MacOS/GrowlMenu
+  275 U      0:03.51 05:33:54  3832068  15120   0.0  0.4 GrowlHelperApp.app/Contents/MacOS/GrowlHelperApp
+  276 S      0:02.17 05:33:54   473332  12676   0.0  0.3 MusicManagerHelper.app/Contents/MacOS/MusicManagerHelper
+  277 SN     0:56.15 05:33:54   555000   6280   0.0  0.1 CrashPlan menu bar.app/Contents/MacOS/CrashPlan menu bar
+  278 S      0:26.43 05:33:54   499420  22860   0.0  0.5 Quicksilver.app/Contents/MacOS/Quicksilver
+  280 S      0:00.33 05:33:54  2756488   7108   0.0  0.2 HardwareGrowler.app/Contents/MacOS/HardwareGrowler
+  289 Ss     0:00.20 05:33:32  2450672   2520   0.0  0.1 /usr/sbin/smbd
+  295 S     29:52.59 05:33:24  3835696 266924   0.0  6.4 Earlybird.app/Contents/MacOS/thunderbird
+  298 S      0:00.81 05:33:21  2464448   2024   0.0  0.0 CoreMIDI.framework/MIDIServer
+  301 S      0:00.00 05:33:04  2439204    344   0.0  0.0 /usr/sbin/smbd
+  304 U      0:02.39 05:33:04  2811372  14564   0.0  0.3 Preview.app/Contents/MacOS/Preview
+ 3112 U      0:00.14 05:30:16  2727772   3232   0.0  0.1 CoreMediaIOServices.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+ 3217 U      0:00.12 05:30:09  2467676   2004   0.0  0.0 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+ 3247 S      0:10.77 05:30:06   418896   8088   0.0  0.2 GoogleTalkPlugin.app/Contents/MacOS/GoogleTalkPlugin
+ 3307 S      1:57.36 05:27:34   536516  35356   0.0  0.8 Aquamacs.app/Contents/MacOS/Aquamacs
+ 4775 S      0:40.26 02:43:37  3832852  15552   0.1  0.4 BetterTouchTool.app/Contents/MacOS/BetterTouchTool
+ 5151 S      0:37.82 02:10:48  2958884  26924   0.2  0.6 plugin-container.app/Contents/MacOS/plugin-container
+ 5251 U      0:00.18 02:00:42   456224   4356   0.0  0.1 plugin-container.app/Contents/MacOS/plugin-container
+ 5819 S      1:04.38 01:13:05  4069144  80028   0.2  1.9 calibre.app/Contents/MacOS/calibre
+ 6239 S      0:06.26    35:23 11287352  46584   0.0  1.1 System Preferences.app/Contents/MacOS/System Preferences
+ 6249 Ss     0:00.03    34:28  2447336   2800   0.0  0.1 Admin.framework/Resources/writeconfig
+ 6254 U      0:00.25    34:15  2744076   5564   0.0  0.1 Image Capture Extension.app/Contents/MacOS/Image Capture Extension
+ 6621 S      0:00.04    05:44  2449200   5328   0.0  0.1 OpenGL.framework/Versions/A/Libraries/cvmsComp_x86_64
+ 6637 S      0:02.66    04:19   468684  35664   0.5  0.9 Dropbox.app/Contents/MacOS/Dropbox
+ 6655 S      0:04.96    03:21  3600540 172008   0.1  4.1 Aurora.app/Contents/MacOS/firefox
+ 6670 SNs    0:00.10    02:21  2466136   3356   0.0  0.1 Metadata.framework/Versions/A/Support/mdworker
+ 6674 UNs    0:00.18    02:16  2468596   7568   0.0  0.2 Metadata.framework/Versions/A/Support/mdworker
+ 6677 S      0:00.12    02:13    91872   4144   0.0  0.1 /usr/bin/osascript
+ 6678 U      0:00.22    02:09  3314908  15232   0.0  0.4 FreeMind.app/Contents/MacOS/JavaApplicationStub
+ 6681 S      0:00.19    02:09   405824   8832   0.0  0.2 Amazon MP3 Downloader.app/Contents/MacOS/Amazon MP3 Downloader
+ 6682 Ss     0:00.06    02:09  2446796   1596   0.0  0.0 /usr/libexec/taskgated
+ 6683 U      0:00.23    02:09   392644   5952   0.0  0.1 GN Growler Utility.app/Contents/MacOS/GN Growler Utility
+ 6684 S      0:00.15    02:09  2762448   8808   0.0  0.2 TextEdit.app/Contents/MacOS/TextEdit
+ 6685 S      0:00.11    02:09  2760296   7096   0.0  0.2 Calculator.app/Contents/MacOS/Calculator
+ 6686 U      0:00.10    02:09  2732956   6800   0.0  0.2 PrefEdit.app/Contents/MacOS/PrefEdit
+ 6687 S      0:00.14    02:09 11155956   8128   0.0  0.2 Grid.app/Contents/MacOS/Grid
+ 6689 S      0:00.12    02:09  2760704   9404   0.0  0.2 Monolingual.app/Contents/MacOS/Monolingual
+ 6691 S      0:00.14    02:02   423172  10344   0.0  0.2 XBMC.app/Contents/MacOS/XBMC
+ 6693 U      0:00.27    02:02   347976  11380   0.0  0.3 CrashPlan.app/Contents/MacOS/CrashPlan
+ 6694 S      0:00.10    02:02   406428   8484   0.0  0.2 DivX Player.app/Contents/MacOS/DivX Player
+ 6695 S      0:00.35    02:02  2731496   5268   0.3  0.1 Uninstall Growl.app/Contents/MacOS/applet
+ 6697 S      0:00.08    02:02   405536   4352   0.0  0.1 Inkscape.app/Contents/MacOS/Inkscape
+ 6698 U      0:00.26    02:02  3807684  15536   0.0  0.4 NetNewsWire.app/Contents/MacOS/NetNewsWire
+ 6699 S      0:00.32    02:02  3810708  11768   0.0  0.3 UnPlugged.app/Contents/MacOS/UnPlugged
+ 6700 S      0:00.16    02:02  2754548   9604   0.0  0.2 Zeeyoo.app/Contents/MacOS/Zeeyoo
+ 6701 S      0:00.38    02:02 11190512  19980   0.0  0.5 KisMAC.app/Contents/MacOS/KisMAC
+ 6702 S      0:00.07    02:02  2728684   6112   0.0  0.1 GitHub.app/Contents/MacOS/GitHub
+ 6703 U      0:00.24    02:02   116748   6048   0.1  0.1 bin/yate-qt4
+ 6704 S      0:00.13    02:02   424196  10356   0.0  0.2 XBMC.app/Contents/MacOS/XBMC
+ 6712 S      0:00.11    01:47  2737748   6972   0.0  0.2 Font Book.app/Contents/MacOS/Font Book
+ 6713 U      0:00.11    01:46   388800   3728   0.0  0.1 Chicken of the VNC.app/Contents/MacOS/Chicken of the VNC
+ 6714 U      0:00.09    01:46   368020   4792   0.0  0.1 Disk Inventory X.app/Contents/MacOS/Disk Inventory X
+ 6716 S      0:00.20    01:45  2764132   9768   0.0  0.2 Key Codes.app/Contents/MacOS/Key Codes
+ 6717 S      0:00.32    01:45  2731496   5244   0.3  0.1 Uninstall Growl.app/Contents/MacOS/applet
+ 6718 U      0:00.07    01:45  2769936  12472   0.0  0.3 FirefoxBeta.app/Contents/MacOS/firefox
+ 6719 U      0:00.10    01:44   374200   3716   0.3  0.1 DivX Converter.app/Contents/MacOS/DivX Converter
+ 6720 U      0:00.14    01:44   412152   8432   0.0  0.2 Seesmic Desktop 2.app/Contents/MacOS/Silverlight
+ 6721 S      0:00.11    01:44  2762828   9804   0.0  0.2 ZeeyooGoogle.app/Contents/MacOS/ZeeyooGoogle
+ 6722 S      0:00.08    01:44  2750128   8044   0.0  0.2 Clippy.app/Contents/MacOS/Clippy
+ 6723 U      0:00.24    01:44   144736  15412   0.1  0.4 LibreOffice.app/Contents/MacOS/soffice
+ 6724 U      0:00.23    01:44   400256   9072   0.0  0.2 DVDRemaster.app/Contents/MacOS/DVDRemaster
+ 6727 S      0:00.12    01:41   202132  16464   0.0  0.4 Kindle.app/Contents/MacOS/Kindle
+ 6728 U      0:00.12    01:41   375416   5628   0.8  0.1 Silverlight Preferences.app/Contents/MacOS/Silverlight Preferences
+ 6729 S      0:00.10    01:41   383608   7328   0.0  0.2 Picasa.app/Contents/MacOS/Picasa
+ 6730 S      0:00.97    01:41   369312   4092   0.0  0.1 GrandPerspective.app/Contents/MacOS/GrandPerspective
+ 6731 S      0:00.05    01:41  2479388   4328   0.0  0.1 VLC.app/Contents/MacOS/VLC
+ 6732 S      0:00.18    01:41 11158564  10816   0.0  0.3 SourceTree.app/Contents/MacOS/SourceTree
+ 6733 U      0:00.12    01:41   399172   7672   0.0  0.2 iTunes.app/Contents/MacOS/iTunes
+ 6734 U      0:00.11    01:41   426892  14148   0.0  0.3 Kindle.app/Contents/MacOS/Kindle
+ 6739 U      0:00.04    01:32  3776092   6356   0.0  0.2 Safari.app/Contents/MacOS/Safari
+ 6740 S      0:00.16    01:32   379868  13196   0.0  0.3 WindowFlow.app/Contents/MacOS/WindowFlow
+ 6741 S      0:00.15    01:32  2755984   9620   0.7  0.2 Stickies.app/Contents/MacOS/Stickies
+ 6742 S      0:00.13    01:32   408156   7096   0.0  0.2 SIMBL Uninstaller.app/Contents/MacOS/SIMBL Uninstaller
+ 6744 U      0:00.04    01:28   400668   4884   0.0  0.1 Webian Shell.app/Contents/MacOS/xulrunner
+ 6745 S      0:00.10    01:28  3801612   9676   0.0  0.2 Calendar.app/Contents/MacOS/Calendar
+ 6746 S      0:00.07    01:28  2743136   9048   0.0  0.2 AppCleaner.app/Contents/MacOS/AppCleaner
+ 6747 U      0:00.06    01:27  2747088   7292   0.0  0.2 Image Capture.app/Contents/MacOS/Image Capture
+ 6748 S      0:00.53    01:27  2738840   6756   0.5  0.2 Crashplan Uninstall.app/Contents/MacOS/applet
+ 6749 S      0:00.04    01:27  2742408   8136   0.0  0.2 Yoono Desktop.app/Contents/MacOS/xulrunner
+ 6750 U      0:00.08    01:27  2753000   6836   0.0  0.2 TinkerTool System.app/Contents/MacOS/TinkerTool System
+ 6751 U      0:00.06    01:27   388224   6500   0.0  0.2 Opera.app/Contents/MacOS/Opera
+ 6754 S      0:00.10    01:26  2748248   6460   0.0  0.2 Archive Utility.app/Contents/MacOS/Archive Utility
+ 6755 S      0:01.48    01:23   416328  56708  85.0  1.4 Fairmount.app/Contents/MacOS/Fairmount
+ 6756 S      0:00.01    01:22  2435544    712   0.0  0.0 /bin/sh
+ 6762 U      0:00.04    01:21  2723800   4996   0.0  0.1 System Events.app/Contents/MacOS/System Events
+ 6766 S      0:00.04    01:19   128608   6892   0.0  0.2 Psi.app/Contents/MacOS/psi
+ 6767 U      0:00.05    01:19   387648   2952   0.0  0.1 Chicken of the VNC.app/Contents/MacOS/Chicken of the VNC
+ 6784 S      0:00.05    01:07   375148   3224   0.0  0.1 ControllerMate Uninstaller.app/Contents/MacOS/ControllerMate Uninstaller
+ 6785 S      0:00.06    01:07   364744   3532   0.6  0.1 Launcher.app/Contents/MacOS/Launcher
+ 6786 S      0:00.03    01:07  2725756   7040   0.0  0.2 Transmission.app/Contents/MacOS/Transmission
+ 6787 S      0:00.04    01:07  2732288   6236   0.0  0.1 Maintenance.app/Contents/MacOS/Maintenance
+ 6788 U      0:00.05    01:07   367120   5752   0.0  0.1 Shrook.app/Contents/MacOS/Shrook
+ 6789 S      0:00.06    01:07   378380   4768   0.0  0.1 SIMBL Uninstaller.app/Contents/MacOS/SIMBL Uninstaller
+ 6790 S      0:00.04    01:07  2732984   5668   0.0  0.1 Flycut.app/Contents/MacOS/Flycut
+ 6791 U      0:00.07    01:07  2752232   9032   1.6  0.2 OnyX.app/Contents/MacOS/OnyX
+ 6792 S      0:00.03    01:07  2723544   5636   0.0  0.1 Address Book.app/Contents/MacOS/Address Book
+ 6794 S      0:00.11    01:05 11136428  11068   8.2  0.3 Automator.app/Contents/MacOS/Automator
+ 6795 S      0:00.04    01:05  2741460   5096   0.0  0.1 XMenu.app/Contents/MacOS/XMenu
+ 6796 S      0:00.06    01:05   389176   3936   0.0  0.1 GN Growler Utility.app/Contents/MacOS/GN Growler Utility
+ 6797 U      0:00.03    01:05  2725304   5172   0.0  0.1 App Store.app/Contents/MacOS/App Store
+ 6798 S      0:00.04    01:04   373004   3256   0.0  0.1 Uninstall TeamViewer.app/Contents/MacOS/Uninstall TeamViewer
+ 6799 U      0:00.07    01:03  2748468   7960   0.0  0.2 Clippy.app/Contents/MacOS/Clippy
+ 6800 S      0:00.05    01:03    92796   2944   0.0  0.1 DVD Player.app/Contents/MacOS/DVD Player
+ 6801 U      0:00.05    01:03   103720   2852   0.0  0.1 Blink Lite.app/Contents/MacOS/Blink Lite
+ 6802 S      0:00.04    01:03   366752   3508   0.0  0.1 Google Notifier.app/Contents/MacOS/Google Notifier
+ 6803 S      0:00.03    01:03  2723532   4936   0.0  0.1 Dictionary.app/Contents/MacOS/Dictionary
+ 6805 S      0:00.07    01:01   946304   5624   0.0  0.1 Google Chrome.app/Contents/MacOS/Google Chrome
+ 6806 S      0:00.04    01:01   367304   3224   0.0  0.1 ControllerMate.app/Contents/MacOS/ControllerMate
+ 6807 S      0:00.03    01:00  2724412   4832   0.0  0.1 Terminal.app/Contents/MacOS/Terminal
+ 6808 S      0:00.00    00:57  2436128    248   0.0  0.0 /usr/sbin/cron
+ 6809 Ss     0:00.00    00:57  2435544    664   0.0  0.0 /bin/sh
+ 6810 S      0:00.00    00:57  2435544    632   0.0  0.0 /bin/sh
+ 6814 U      0:00.03    00:55    76852   1512   0.1  0.0 /Library/DropboxHelperTools/DropboxHelperInstaller
+ 6817 U      0:00.04    00:54  2740296   5040   0.0  0.1 DBExplorer.app/Contents/MacOS/DBExplorer
+ 6818 S      0:00.03    00:54   107768   3632   0.4  0.1 Wesnoth.app/Contents/MacOS/Wesnoth
+ 6819 U      0:00.02    00:50  2722840   3904   0.0  0.1 Jar Launcher.app/Contents/MacOS/Jar Launcher
+ 6820 U      0:00.03    00:50  2740296   5084   0.0  0.1 DBExplorer.app/Contents/MacOS/DBExplorer
+ 6823 U      0:00.15    00:45   131956  24040   0.0  0.6 TeamViewer.app/Contents/MacOS/TeamViewer
+ 6824 S      0:00.02    00:45  2723024   4268   0.0  0.1 Flycut.app/Contents/MacOS/Flycut
+ 6825 S      0:00.02    00:45  2709940   2544   0.0  0.1 Gimp.app/Contents/MacOS/Gimp
+ 6826 S      0:00.03    00:44  2727012   5340   0.0  0.1 NetNewsWire.app/Contents/MacOS/NetNewsWire
+ 6827 U      0:00.05    00:44  2465404   9808   0.0  0.2 Mail.app/Contents/MacOS/Mail
+ 6828 S      0:00.04    00:44   104708   4212   0.0  0.1 Disk Inventory X.app/Contents/MacOS/Disk Inventory X
+ 6830 S      0:00.03    00:44  2473896   7108   0.0  0.2 SeaMonkey.app/Contents/MacOS/seamonkey-bin
+ 6831 S      0:00.02    00:44  2478704   5176   0.0  0.1 heimdall-frontend.app/Contents/MacOS/heimdall-frontend
+ 6832 S      0:00.02    00:44   662220   4672   0.0  0.1 Google Earth.app/Contents/MacOS/Google Earth
+ 6834 S      0:00.03    00:43  2725536   6588   0.0  0.2 PasteboardRecorder3E.app/Contents/MacOS/PasteboardRecorder3E
+ 6837 S      0:00.03    00:34    81760   2512   0.2  0.1 QuicKeys.app/Contents/MacOS/QuicKeys
+ 6838 S      0:00.02    00:34  2724472   5240   0.0  0.1 Alfred.app/Contents/MacOS/Alfred
+ 6839 S      0:00.05    00:34  2477732   9376   0.0  0.2 Sparrow.app/Contents/MacOS/Sparrow
+ 6840 S      0:00.02    00:33  2463424   4820   0.0  0.1 TweetDeck.app/Contents/MacOS/TweetDeck
+ 6841 U      0:00.02    00:32  2724216   4508   0.0  0.1 iSync.app/Contents/MacOS/iSync
+ 6842 S      0:00.02    00:32  2713448   3924   0.0  0.1 Crashplan Uninstall.app/Contents/MacOS/applet
+ 6845 R      0:00.01    00:22  2435128    508   0.0  0.0 ps
+ 6846 S      0:00.00    00:22  2434868    396   0.0  0.0 sed
+ 6847 U      0:00.01    00:21  2462780   1900   0.0  0.0 SecurityAgent.app/Contents/Resources/authorizationhost
+ 6851 Ss     0:00.02    00:18  2435176   1392   0.3  0.0 /usr/bin/hdiutil
+ 6858 S      0:00.00    00:10  2435544    444   0.0  0.0 /bin/sh
+ 6859 R      0:00.00    00:09  2434852    452   0.0  0.0 defaults
+ 6860 Ss     0:00.01    00:09  2436388   1476   0.0  0.0 master
+ 6869 U      0:00.01    00:08  2447664   2800   0.0  0.1 LaunchServices.framework/Support/lssave
+ 6870 S      0:00.02    00:08 10868392   4500   0.0  0.1 Grid.app/Contents/MacOS/Grid
+ 6871 S      0:00.01    00:07  2437244   3724   0.0  0.1 Telephone.app/Contents/MacOS/Telephone
+ 6872 U      0:00.02    00:07  2461256   4088   0.0  0.1 Store News.app/Contents/MacOS/Store News
+ 6873 S      0:00.02    00:07    76820   1812   0.2  0.0 ClamXav.app/Contents/MacOS/ClamXav
+ 6875 U      0:00.01    00:07  2435396   4808   0.4  0.1 LiteIcon.app/Contents/MacOS/LiteIcon
+ 6876 U      0:00.02    00:07  2462520   3924   0.1  0.1 EasyFind.app/Contents/MacOS/EasyFind
+ 6877 U      0:00.00    00:07   591368    224   0.0  0.0 Mailplane.app/Contents/MacOS/Mailplane
+ 6878        0:00.00    00:06        0      0   0.0  0.0 (SFLIconTool)
+ 6879 U      0:00.02    00:05   111108   1776   0.3  0.0 BrettspielWelt.app/Contents/MacOS/Applet Launcher
+ 6881 S      0:00.02    00:05 10833664   4128   0.1  0.1 StartupizerLite.app/Contents/MacOS/StartupizerLite
+ 6882 U      0:00.00    00:04  2426872    224   0.0  0.0 CCleaner.app/Contents/MacOS/CCleaner
+ 6883 S      0:00.00    00:04  2426984    284   0.0  0.0 SourceTree.app/Contents/MacOS/SourceTree
+========================================================================
+Temperature Readings
+========================================================================
+CPU Core 1: 32 F
+CPU Core 2: 208.4 F
+SMART Disk Hitachi HTS545050B9SA02 (100315PBL400Q7KA7E8N): 96.8 F
+SMB NORTHBRIDGE CHIP DIE: 152.6 F
+SMC BATTERY: 91.4 F
+SMC BATTERY POSITION 2: 91.4 F
+SMC BATTERY POSITION 3: 86 F
+SMC BATTERY POSITION 4: 96.8 F
+SMC CPU A DIODE: 215.6 F
+SMC CPU A PROXIMITY: 150.8 F
+SMC GPU 1 CHIP: 141.8 F
+SMC GPU 1 HEAT SINK: 136.4 F
+SMC GPU DIODE: 168.8 F
+SMC LEFT PALM REST: 91.4 F
+SMC MAIN HEAT SINK 3: 140 F
+SMC MAIN LOGIC BOARD: 120.2 F
+SMC NORTHBRIDGE POS 1: 147.2 F
