@@ -1,0 +1,109 @@
+  PID STAT      TIME     ELAPSED      VSZ    RSS  %CPU %MEM COMM
+    1 Ss     5:49.50 08-02:04:39  2456848    768   0.0  0.0 /sbin/launchd
+   16 Ss     0:17.75 08-02:04:32  2458108   2052   0.0  0.0 /usr/libexec/kextd
+   17 Ss     1:19.12 08-02:04:32  2453372   2788   0.0  0.1 /usr/sbin/DirectoryService
+   18 Ss     0:26.38 08-02:04:32  2444624    572   0.0  0.0 /usr/sbin/notifyd
+   19 Ss     0:09.91 08-02:04:32  2457256    532   0.0  0.0 /usr/sbin/syslogd
+   20 Ss     0:02.42 08-02:04:32  2447492   1212   0.0  0.0 /usr/sbin/diskarbitrationd
+   21 Ss     0:57.44 08-02:04:32  2475324   2088   0.0  0.0 /usr/libexec/configd
+   22 Ss     0:35.19 08-02:04:32  2447344   1380   0.4  0.0 /usr/sbin/distnoted
+   23 Ss     0:01.32 08-02:04:32  2462484   2632   0.0  0.1 /usr/sbin/blued
+   24 Ss     0:36.00 08-02:04:21  2459440   1928   0.0  0.0 /usr/sbin/mDNSResponder
+   29 Ss     0:14.13 08-02:04:21  2459504   1872   0.0  0.0 /usr/sbin/securityd
+   44 Ss     0:31.76 08-02:04:17  2537124  12924   0.0  0.3 /System/Library/CoreServices/coreservicesd
+   46 Ss     0:15.45 08-02:04:17  2435292    680   0.0  0.0 /usr/sbin/ntpd
+   47 Ss     0:05.83 08-02:04:17  2458752   1380   0.0  0.0 /usr/sbin/cupsd
+   48 Ss     0:08.46 08-02:04:17  2436420    944   0.0  0.0 /usr/sbin/nmbd
+   49 Ss     0:03.31 08-02:04:17  2447428    976   0.0  0.0 /usr/sbin/krb5kdc
+   53 Ss     0:01.02 08-02:04:17  2446848    496   0.0  0.0 /sbin/SystemStarter
+   58 Us    26:59.72 08-02:04:17  3384972 132272   1.9  3.2 Metadata.framework/Support/mds
+   59 Ss     3:36.14 08-02:04:17  2792788   7232   3.6  0.2 loginwindow.app/Contents/MacOS/loginwindow
+   60 Ss     0:02.06 08-02:04:17  2445904    612   0.0  0.0 /usr/sbin/KernelEventAgent
+   62 Ss    20:18.45 08-02:04:17  2448300    992   0.0  0.0 /usr/libexec/hidd
+   63 Ss     0:31.14 08-02:04:17  2453200   1532   0.0  0.0 CarbonCore.framework/Versions/A/Support/fseventsd
+   65 Ss     0:13.64 08-02:04:17  2434864    404   0.0  0.0 /sbin/dynamic_pager
+   71 Ss     0:01.12 08-02:04:17  2446832    480   0.0  0.0 autofsd
+   74 SNs   22:14.66 08-02:04:17  3299464 120388   0.0  2.9 /usr/bin/java
+  111 Ss    56:38.13 08-02:04:15  3456936 106100   0.5  2.5 CoreGraphics.framework/Resources/WindowServer
+  120 Ss     0:00.08 08-02:04:10  2438276    504   0.0  0.0 OpenGL.framework/Versions/A/Libraries/cvmsServ
+  132 Ss     0:08.57 08-02:04:04  2455180   4568   0.0  0.1 /usr/sbin/coreaudiod
+  158 Ss     0:17.77 08-01:48:56  2456396    796   0.1  0.0 /sbin/launchd
+  162 S      0:40.02 08-01:48:55  2857448  11296   0.0  0.3 Dock.app/Contents/MacOS/Dock
+  163 S      0:47.83 08-01:48:55  2881792  12672   0.0  0.3 SystemUIServer.app/Contents/MacOS/SystemUIServer
+  164 U      2:27.73 08-01:48:55  3013884  62980   0.0  1.5 Finder.app/Contents/MacOS/Finder
+  169 S      0:00.02 08-01:48:51  2436408    368   0.0  0.0 /usr/sbin/pboard
+  170 S      0:15.52 08-01:48:50  2495216   2600   0.0  0.1 ATS.framework/Support/fontd
+  174 S      0:10.14 08-01:48:49  2738004   4524   0.0  0.1 /usr/libexec/UserEventAgent
+  181 S      0:01.48 08-01:48:49  2750880   3736   0.0  0.1 AirPort Base Station Agent.app/Contents/MacOS/AirPort Base Station Agent
+  182 S      0:12.02 08-01:48:49 11153260  11000   0.0  0.3 SIMBL Agent.app/Contents/MacOS/SIMBL Agent
+  183 S      0:08.48 08-01:48:49   392996   3528   0.0  0.1 ControllerMateHelper.app/Contents/MacOS/ControllerMateHelper
+  185 S      0:04.29 08-01:48:49   386140   1744   0.0  0.0 XBMC.app/Contents/Resources/XBMC/tools/osx/XBMCHelper
+  187 S     12:12.75 08-01:48:49   477000   7468   0.1  0.2 Plex Media Server.app/Contents/MacOS/Plex Media Server
+  194 S      0:03.88 08-01:48:45 11153836   5780   0.0  0.1 GrowlMenu.app/Contents/MacOS/GrowlMenu
+  195 S      0:40.22 08-01:48:45  2764548   8080   0.0  0.2 GrowlHelperApp.app/Contents/MacOS/GrowlHelperApp
+  197 S      0:05.51 08-01:48:45  2776316   6916   0.0  0.2 HardwareGrowler.app/Contents/MacOS/HardwareGrowler
+  200 S     10:31.60 08-01:48:45  2911644  25324   0.2  0.6 Keyboard Maestro Engine.app/Contents/MacOS/Keyboard Maestro Engine
+  202 S      0:37.37 08-01:48:45  2786772   7020   0.0  0.2 ClipMenu.app/Contents/MacOS/ClipMenu
+  203 S      7:39.13 08-01:48:45   438736  18176   0.0  0.4 Google Notifier.app/Contents/MacOS/Google Notifier
+  204 S      4:54.55 08-01:48:45   448808  17976   0.0  0.4 Dropbox.app/Contents/MacOS/Dropbox
+  211 S      0:16.84 08-01:48:31  2470592   3764   0.0  0.1 CoreMIDI.framework/MIDIServer
+  260 Ss     0:23.00 08-01:47:01  2445820   1428   0.0  0.0 Keyboard Maestro Engine.app/Contents/Resources/Keyboard Maestro Web Server
+  778 S      0:01.80 07-23:15:43  2727772   3056   0.0  0.1 CoreMediaIOServices.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+  916 S      0:09.21 07-22:49:59  2467632   7128   0.0  0.2 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+  985 S      0:15.10 07-22:38:30  3894444   4948   0.0  0.1 DashboardClient.app/Contents/MacOS/DashboardClient
+ 1090 Ss     0:00.27       58:54  2476316   7624   0.0  0.2 DiskImages.framework/Resources/diskimages-helper
+ 1764 S      0:00.61       22:15  1011168  25900   0.0  0.6 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+ 1766 S      0:00.56       22:03  1045768  26600   0.0  0.6 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+ 1768 S      0:04.56       21:59   990876  14212   0.2  0.3 Google Chrome Helper EH.app/Contents/MacOS/Google Chrome Helper EH
+ 1770 S      0:03.56       21:58   986716   9560   0.2  0.2 Google Chrome Helper EH.app/Contents/MacOS/Google Chrome Helper EH
+ 1771 S      0:01.01       21:51  1051372  32784   0.0  0.8 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+ 1773 S      0:03.77       21:48   986524   9056   0.3  0.2 Google Chrome Helper EH.app/Contents/MacOS/Google Chrome Helper EH
+ 2160 S      0:11.35       03:08   559900  39668   0.2  0.9 Aquamacs.app/Contents/MacOS/Aquamacs
+ 2282 S      0:07.34       01:11 11320732  38480   2.9  0.9 System Preferences.app/Contents/MacOS/System Preferences
+ 2326 S      0:00.00       00:00  2436128    252   0.1  0.0 /usr/sbin/cron
+ 2327 Ss     0:00.00       00:00  2435544    664   0.4  0.0 /bin/sh
+ 2328 R      0:00.00       00:00  2435544    632   0.0  0.0 /bin/sh
+ 2333 R      0:00.00       00:00  2434868    424   0.0  0.0 ps
+ 4380 S      0:01.03 07-17:07:54  2458584   1016   0.0  0.0 /usr/bin/ssh-agent
+ 9777 Ss     0:00.84 06-14:57:52  2436128    512   0.0  0.0 /usr/sbin/cron
+15859 Ss     0:02.14 05-23:04:30  2447588   1356   0.0  0.0 webdavfs_agent
+30800 S      0:05.24 05-01:45:22    72508    336   0.0  0.0 /Library/DropboxHelperTools/Dropbox_u502/dbfseventsd
+30802 R      0:42.78 05-01:45:22    80700   2272   0.0  0.1 /Library/DropboxHelperTools/Dropbox_u502/dbfseventsd
+30803 S      0:27.61 05-01:45:22    72508    108   0.0  0.0 /Library/DropboxHelperTools/Dropbox_u502/dbfseventsd
+37360 RN     4:45.54 04-20:18:04   125340  12940   0.1  0.3 Plex Plug-in [com.plexapp.system]
+48060 S      0:34.74 04-03:40:12  2781396  14420   0.0  0.3 Terminal.app/Contents/MacOS/Terminal
+55936 Ss     0:03.61 03-19:05:41  2477760   3716   0.0  0.1 DiskImages.framework/Resources/diskimages-helper
+55940 Ss     0:06.80 03-19:05:40  2447220   1252   0.0  0.0 DiskImages.framework/Resources/hdiejectd
+56002 R     16:13.56 03-19:04:43  1148740 121292   0.3  2.9 DashboardClient.app/Contents/MacOS/DashboardClient
+56030 S    178:52.33 03-19:03:48  5059312 1092144   5.2 26.0 Aurora.app/Contents/MacOS/firefox
+56036 R     25:30.03 03-19:03:27  3162060  94288   2.2  2.2 plugin-container.app/Contents/MacOS/plugin-container
+56037 S      0:01.42 03-19:03:23   470076   8416   0.0  0.2 plugin-container.app/Contents/MacOS/plugin-container
+58245 S      0:05.51 03-16:07:13  2764652  10072   0.0  0.2 Alfred.app/Contents/MacOS/Alfred
+69446 Ss     0:00.53 02-17:13:17  2450672   1984   0.0  0.0 /usr/sbin/smbd
+69447 S      0:00.00 02-17:13:16  2439204    296   0.0  0.0 /usr/sbin/smbd
+72385 S      0:13.18 02-17:01:41   457600   7348   0.0  0.2 MusicManagerHelper.app/Contents/MacOS/MusicManagerHelper
+75698 S      0:35.15 02-03:17:31   417340   7624   0.0  0.2 GoogleTalkPlugin.app/Contents/MacOS/GoogleTalkPlugin
+78545 Ss     0:00.47 02-03:12:53  2476556   5160   0.0  0.1 DiskImages.framework/Resources/diskimages-helper
+93712 Ss     0:00.09    16:55:33  2460916   1132   0.0  0.0 MobileDevice.framework/Versions/A/Resources/usbmuxd
+93735 S      0:00.14    16:55:30  2726804   2076   0.0  0.0 iTunesHelper.app/Contents/MacOS/iTunesHelper
+95912 R      0:36.23    03:09:19  2757824  11312   0.0  0.3 BetterTouchTool.app/Contents/MacOS/BetterTouchTool
+95993 S      1:37.37    03:06:18  1350424  78632   0.2  1.9 Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary
+95997 S      0:38.88    03:06:15  1081016  57028   0.5  1.4 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+96001 S      0:01.69    03:06:13  1012156  20792   0.0  0.5 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+96002 S      0:02.98    03:06:13  1015040  26004   0.0  0.6 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+96003 S      0:02.43    03:06:13  1013364  23804   0.0  0.6 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+96005 S      0:01.60    03:06:13  1011124  20280   0.0  0.5 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+96007 S      0:01.66    03:06:13  1011132  20432   0.0  0.5 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+96008 S      0:10.01    03:06:13  1050188  27704   0.0  0.7 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+96009 S      0:01.86    03:06:13  1012404  22496   0.0  0.5 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+96011 S      0:02.41    03:06:13  1046896  25112   0.0  0.6 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+96015 S      0:03.63    03:06:06  1017392  24580   0.0  0.6 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+96016 S      0:45.55    03:06:04  1146604  90612   0.1  2.2 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+96018 Z      0:00.00    03:06:03        0      0   0.0  0.0 (Google Chrome He)
+96042 R      1:22.89    03:05:40  1069696  27100   0.6  0.6 Google Chrome Helper EH.app/Contents/MacOS/Google Chrome Helper EH
+96046 S      0:00.19    03:05:34   977484   6028   0.0  0.1 Google Chrome Helper EH.app/Contents/MacOS/Google Chrome Helper EH
+96079 S      0:02.93    03:02:22  1172756  39164   0.0  0.9 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+99373 SNs    0:27.06    02:28:25  2510900  30252   0.0  0.7 Metadata.framework/Versions/A/Support/mdworker
+ 2215 Ss+    0:00.01       02:47  2435548    884   0.0  0.0 /bin/bash
+ 1999 Ss     0:00.06       10:04  2436216   1596   0.0  0.0 login
+ 2000 S+     0:00.04       10:03  2435548   1168   0.0  0.0 -bash
