@@ -1,0 +1,77 @@
+* File Contents
+This directory contains a large and growing sampling of data from my computer. The newest files consist of three parts:
+  1) The output of a [[http://bit.ly/M5V9H3][ps(1)]] command.
+  1) A reading of various temperature sensors on my MacBook Pro.
+  1) Free form miscellaneous notes that I added to the sampling.
+
+The earliest files only contain the output of ps(1). On or about 14 March 2012 I began collecting the temperature information as well. I added the miscellaneous notes around the beginning of May 2012.
+
+* Details
+*** Data Sampling Times
+The samples were taken every 5 minutes via [[http://bit.ly/M65GCg][cron(8)]] using this line:
+: 3-59/5  * * * * Command line...
+in my [[http://bit.ly/M64MWo][crontab(5)]]. 
+
+Being that I'm on a MacBook Pro, the computer always sleeps when the lid is closed. The only way to avoid this is to connect an external keyboard, mouse, and display. Thank you -- not!
+
+Due to the lid closing/sleep issue, sampling stopped when I was traveling with my computer or any other time that I shut the lid. A byproduct of my daily routine frequently leads to me shutting the lid when I'm sleeping. 
+
+*** Running Process Sampling Mechanism
+This is the exact line I have in my crontab(5) file:
+: 3-59/5  * * * * nice -n +20 $HOME/bin/statprocs > $HOME/process-data/`$HOME/bin/dtstamp`
+
+The =dstamp= shell script is a one-liner that outputs the data in the format I wanted to use for my filenames. It's one line is:
+: /bin/echo -n $(date '+Y%Y-M%m-D%d')
+
+=statprocs= is where the real work happens. =statprocs= runs ps(1) as:
+: ps -eS -o pid,state,cputime,etime,vsz,rss,pcpu,pmem,comm 
+The output of the ps(1) command is then stripped for brevity and privacy. This includes reducing full executable paths down to just the executable name, removing command-line arguments, and trimming of similar data.
+
+*** Temperature Sampling Mechanism
+I used a the [[http://bit.ly/M1jo5K][tempmonitor]] program written by [[Marcel Bresink]] to access my computer's temperature sensors. The exact command-line I use is:
+: tempmonitor -l -a -f
+
+As I was writing this posting, I ran the above =tempmonitor= command and this its output:
+#+BEGIN_EXAMPLE
+CPU Core 2: 190.4 F
+SMART Disk Hitachi HTS545050B9SA02 (100315PBL400Q7KA7E8N): 98.6 F
+SMB NORTHBRIDGE CHIP DIE: 150.8 F
+SMC BATTERY: 93.2 F
+SMC BATTERY POSITION 2: 93.2 F
+SMC BATTERY POSITION 3: 87.8 F
+SMC BATTERY POSITION 4: 96.8 F
+SMC CPU A DIODE: 190.4 F
+SMC CPU A PROXIMITY: 149 F
+SMC GPU 1 CHIP: 141.8 F
+SMC GPU 1 HEAT SINK: 136.4 F
+SMC GPU DIODE: 167 F
+SMC LEFT PALM REST: 89.6 F
+SMC MAIN HEAT SINK 3: 136.4 F
+SMC MAIN LOGIC BOARD: 118.4 F
+SMC NORTHBRIDGE POS 1: 149 F
+#+END_EXAMPLE
+
+See [[http://bit.ly/M1jo5K][tempmonitor's website]] for an explanation of these temperatures. 
+
+I should mention that at this moment I am not running [[http://bit.ly/M1kpLi][Firefox]]. 
+
+*** Miscellaneous Data Collection Mechanism
+The miscellaneous notes functionality allowed me to add free form notes to any sampling. This was accomplished by appending notes to specific file. When =statprocs= ran, it would append the data of this file to the sampling and remove the file.
+
+I didn't bother to synchronize the writing of the notes file with the reading of the notes file. I imagine that some notes are added to the previous or succeeding sample of where they should be. There are thousands of samples with a very small percentage of the having the notes attached to the wrong sampling. No biggie.
+
+As of the type of writing this, the only time data was written to the notes file was via a shell script that I wrote called =killff=. The only thing that =killff= does is kill any and all running Firefox processes. I was careful to only use =killff= when Firefox hung. When I needed to shutdown Firefox for other reasons (eg: installing add-ons), I closed Firefox via more standard mechanisms.
+
+The source code for =killff= is:
+#+BEGIN_SRC shell-script-mode
+#!/bin/sh
+
+# Actual binary executable name
+NAMES="firefox plugin-container"
+
+(
+    echo "========== $0: Executed at $(date)"
+    echo "========== $0: Arguments are '$NAMES'"
+    killall -v -m $NAMES
+) >> $HOME/process-files/notes.txt 2>&1 
+#+END_SRC
