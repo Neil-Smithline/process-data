@@ -1,0 +1,152 @@
+  PID STAT      TIME     ELAPSED      VSZ    RSS  %CPU %MEM COMM
+    1 Ss     4:22.41 02-12:55:09  2456852    916   0.0  0.0 /sbin/launchd
+   16 Ss     0:03.05 02-12:55:01  2448736   1892   0.0  0.0 /usr/libexec/kextd
+   17 Ss     0:32.04 02-12:55:01  2452848   4728   0.0  0.1 /usr/sbin/DirectoryService
+   18 Ss     0:19.34 02-12:55:01  2444624    528   0.0  0.0 /usr/sbin/notifyd
+   19 Ss     0:00.87 02-12:55:01  2446968   1252   0.0  0.0 /usr/sbin/diskarbitrationd
+   20 Ss     0:27.98 02-12:55:01  2474800   2576   0.0  0.1 /usr/libexec/configd
+   21 Ss     0:07.73 02-12:55:01  2457256   2480   0.0  0.1 /usr/sbin/syslogd
+   22 Ss     0:05.08 02-12:55:00  2446820   1436   0.0  0.0 /usr/sbin/distnoted
+   23 Ss     0:02.08 02-12:55:00  2462556   3952   0.0  0.1 /usr/sbin/blued
+   25 Ss     0:10.02 02-12:54:56  2459440   1792   0.0  0.0 /usr/sbin/mDNSResponder
+   29 Ss     0:01.34 02-12:54:56  2459504   2536   0.0  0.1 /usr/sbin/securityd
+   44 Ss    79:25.85 02-12:54:53  2501860  10228  19.6  0.2 /System/Library/CoreServices/coreservicesd
+   47 Ss     0:09.51 02-12:54:52  2435292    780   0.0  0.0 /usr/sbin/ntpd
+   48 Ss     0:05.28 02-12:54:52  2458752   1628   0.0  0.0 /usr/sbin/cupsd
+   49 Ss     0:01.80 02-12:54:52  2436420   1020   0.0  0.0 /usr/sbin/nmbd
+   50 Ss     0:00.77 02-12:54:52  2446404   1132   0.0  0.0 /usr/sbin/krb5kdc
+   51 Ss     0:01.36 02-12:54:52  2436128    508   0.0  0.0 /usr/sbin/cron
+   54 Ss     0:00.63 02-12:54:52  2460916   1080   0.0  0.0 MobileDevice.framework/Versions/A/Resources/usbmuxd
+   55 Ss     0:00.55 02-12:54:52  2446848    500   0.0  0.0 /sbin/SystemStarter
+   60 Ss     9:54.13 02-12:54:52  3299128  80068   0.0  1.9 Metadata.framework/Support/mds
+   61 Ss    55:53.44 02-12:54:52  2815616  11316   0.0  0.3 loginwindow.app/Contents/MacOS/loginwindow
+   62 Ss     0:01.16 02-12:54:52  2445904    580   0.0  0.0 /usr/sbin/KernelEventAgent
+   64 Ss     5:55.85 02-12:54:52  2447776    988   0.0  0.0 /usr/libexec/hidd
+   65 Ss     0:22.18 02-12:54:52  2456320   2168   0.0  0.1 CarbonCore.framework/Versions/A/Support/fseventsd
+   67 Ss     0:06.89 02-12:54:52  2434864    432   0.0  0.0 /sbin/dynamic_pager
+   73 Ss     0:00.54 02-12:54:52  2446832    572   0.0  0.0 autofsd
+   76 UNs   94:10.94 02-12:54:52  3297556 286280   0.1  6.8 /usr/bin/java
+  125 Ss    33:07.58 02-12:54:48  3205892 104624   1.5  2.5 CoreGraphics.framework/Resources/WindowServer
+  132 Ss     0:00.04 02-12:54:42  2438212    512   0.0  0.0 OpenGL.framework/Versions/A/Libraries/cvmsServ
+  143 Ss     0:04.58 02-12:54:42  2455168   5436   0.0  0.1 /usr/sbin/coreaudiod
+  149 Ss     0:08.57 02-12:54:32  2456384    968   0.0  0.0 /sbin/launchd
+  153 S      0:35.61 02-12:54:32  2809224  12200   0.0  0.3 Dock.app/Contents/MacOS/Dock
+  154 S      0:49.68 02-12:54:32  2828884  18864   0.0  0.4 SystemUIServer.app/Contents/MacOS/SystemUIServer
+  159 S      0:00.01 02-12:54:30  2436092    376   0.0  0.0 /usr/sbin/pboard
+  161 S      0:07.98 02-12:54:29  2495960   3900   0.0  0.1 ATS.framework/Support/fontd
+  165 S      0:01.72 02-12:54:26  2725364   4668   0.0  0.1 /usr/libexec/UserEventAgent
+  172 S      0:00.78 02-12:54:26  2750376   3900   0.0  0.1 AirPort Base Station Agent.app/Contents/MacOS/AirPort Base Station Agent
+  173 S      0:03.19 02-12:54:26   393016   3136   0.0  0.1 ControllerMateHelper.app/Contents/MacOS/ControllerMateHelper
+  175 S      0:00.01 02-12:54:26  2435544    176   0.0  0.0 bash
+  176 S      0:01.90 02-12:54:26   384112   2548   0.0  0.1 XBMC.app/Contents/Resources/XBMC/tools/osx/XBMCHelper
+  191 S      0:01.89 02-12:54:19 11171888   9144   0.0  0.2 GrowlMenu.app/Contents/MacOS/GrowlMenu
+  193 S      0:12.74 02-12:54:19   460208   7228   0.0  0.2 MusicManagerHelper.app/Contents/MacOS/MusicManagerHelper
+  194 SN     8:33.18 02-12:54:19   555048   5572   0.4  0.1 CrashPlan menu bar.app/Contents/MacOS/CrashPlan menu bar
+  195 S      2:55.77 02-12:54:19   487608  17936   0.0  0.4 Quicksilver.app/Contents/MacOS/Quicksilver
+  197 S      0:01.96 02-12:54:19  2772164   8524   0.0  0.2 HardwareGrowler.app/Contents/MacOS/HardwareGrowler
+  198 S      3:31.18 02-12:54:19   450080  43096   0.0  1.0 Dropbox.app/Contents/MacOS/Dropbox
+  217 S      0:06.94 02-12:53:49  2464448   2356   0.0  0.1 CoreMIDI.framework/MIDIServer
+  292 S      0:00.97 02-12:51:28  2744584   4656   0.0  0.1 Image Capture Extension.app/Contents/MacOS/Image Capture Extension
+  316 S     51:54.21 02-12:50:40   523748  56296   1.1  1.3 Aquamacs.app/Contents/MacOS/./Aquamacs
+  433 S      0:03.53 02-12:47:43  2467632   6288   0.0  0.1 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+  469 S      0:00.59 02-12:46:50  2457652   1184   0.0  0.0 /usr/bin/ssh-agent
+ 2434 S      0:00.53 02-11:39:32  2445792    464   0.0  0.0 /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/rb-fsevent-0.4.3.1/bin/fsevent_watch
+ 2882 S      0:00.53 02-11:38:32  2446816    468   0.0  0.0 /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/rb-fsevent-0.4.3.1/bin/fsevent_watch
+ 3407 S    169:08.57 02-11:12:47  3797892 225348   8.4  5.4 Earlybird.app/Contents/MacOS/thunderbird
+21781 S      0:00.35 01-18:39:39  2446816    464   0.0  0.0 /usr/local/Cellar/ruby/1.9.3-p0/lib/ruby/gems/1.9.1/gems/rb-fsevent-0.4.3.1/bin/fsevent_watch
+28820 S      0:07.25 01-12:41:40   612000   1280   0.0  0.0 adb
+31657 S     39:22.44 01-12:37:22  1459996 160756   0.1  3.8 RockMelt.app/Contents/MacOS/RockMelt
+31752 S      2:29.10 01-12:33:35  1096092  49984   0.0  1.2 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+31753 S      0:06.89 01-12:33:35  1037176  24416   0.0  0.6 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+31770 S      1:31.75 01-12:33:26  1049204  50644   0.0  1.2 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+31773 S      0:08.59 01-12:33:25  1074232  28596   0.0  0.7 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+31778 S      0:20.73 01-12:33:23  1037044  25288   0.0  0.6 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+31780 S      0:31.84 01-12:33:22  1037288  25860   0.0  0.6 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+31826 S      0:36.72 01-12:30:26  1116664  84924   0.0  2.0 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+31828 S      0:00.80 01-12:30:25   999320   8560   0.0  0.2 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+31933 S      0:23.11 01-12:26:47  1001220  25220   0.0  0.6 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+31972 S      0:19.97 01-12:25:51  1071900  26532   0.0  0.6 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+31983 S      0:14.81 01-12:25:36  1071880  26136   0.0  0.6 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+31988 S      0:17.64 01-12:25:15  1073564  29032   0.0  0.7 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+32060 S      4:03.42 01-12:21:51  1221960 126644   0.0  3.0 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+32185 Z      0:00.00 01-12:15:59        0      0   0.0  0.0 (RockMelt Helper )
+32337 Z      0:00.00 01-12:08:48        0      0   0.0  0.0 (RockMelt Helper )
+32757 S      0:08.03 01-11:53:20  1071372  19668   0.0  0.5 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+32761 S      0:06.22 01-11:53:13  1071224  19160   0.0  0.5 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+32773 S      0:14.50 01-11:52:43  1037112  19736   0.0  0.5 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+32777 Z      0:00.00 01-11:52:20        0      0   0.0  0.0 (RockMelt Helper )
+32795 S      4:10.91 01-11:51:32  1059876  39888   0.0  1.0 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+32797 S      0:12.46 01-11:51:28  1083696  21164   0.0  0.5 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+40098 R    410:06.63 01-04:57:17  2873560  41224  76.1  1.0 Finder.app/Contents/MacOS/Finder
+41812 S      0:08.14 01-00:52:24  3851020  10740   0.0  0.3 GrowlHelperApp.app/Contents/MacOS/GrowlHelperApp
+42777 Ss     0:00.40    16:16:11  2450676   1948   0.0  0.0 /usr/sbin/smbd
+42778 S      0:00.00    16:16:10  2439208    228   0.0  0.0 /usr/sbin/smbd
+43645 Z      0:00.00    15:39:59        0      0   0.0  0.0 (RockMelt Helper )
+44835 Z      0:00.00    14:40:38        0      0   0.0  0.0 (RockMelt Helper )
+45923 Z      0:00.00    13:52:35        0      0   0.0  0.0 (RockMelt Helper )
+46068 Z      0:00.00    13:44:19        0      0   0.0  0.0 (RockMelt Helper )
+46269 Z      0:00.00    13:33:14        0      0   0.0  0.0 (RockMelt Helper )
+46625 Z      0:00.00    13:16:45        0      0   0.0  0.0 (RockMelt Helper )
+47016 Z      0:00.00    12:56:41        0      0   0.0  0.0 (RockMelt Helper )
+47316 Z      0:00.00    12:40:57        0      0   0.0  0.0 (RockMelt Helper )
+47894 S      4:54.61    12:11:00  1366660 122160   0.8  2.9 Google Chrome.app/Contents/MacOS/Google Chrome
+47899 S     23:04.44    12:10:54  1435012 292688   0.1  7.0 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47901 S      0:02.74    12:10:54  1014712  27516   0.0  0.7 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47902 S      0:04.30    12:10:53  1015624  33316   0.0  0.8 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47903 S      0:02.76    12:10:53  1043104  23256   0.0  0.6 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47904 S      0:05.38    12:10:53  1009412  23596   0.0  0.6 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47905 S      0:02.02    12:10:53  1008892  21828   0.0  0.5 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47906 S      0:08.15    12:10:53  1054424  35156   0.0  0.8 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47907 S      0:02.57    12:10:53  1008892  22124   0.0  0.5 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47908 S      0:02.03    12:10:53  1008888  21844   0.0  0.5 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47909 S      3:10.19    12:10:53  1068180  63232   0.4  1.5 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47910 S      0:08.23    12:10:53  1047528  27704   0.0  0.7 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47911 S      0:14.27    12:10:49  1132824 104208   0.0  2.5 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+47915 S      1:33.54    12:10:43   989276  11104   0.1  0.3 Google Chrome Helper EH.app/Contents/MacOS/Google Chrome Helper EH
+48058 Z      0:00.00    12:03:29        0      0   0.0  0.0 (RockMelt Helper )
+49206 Z      0:00.00    11:05:03        0      0   0.0  0.0 (RockMelt Helper )
+49208 Z      0:00.00    11:05:01        0      0   0.0  0.0 (RockMelt Helper )
+49228 S      0:00.93    11:04:52   596796    372   0.0  0.0 /Library/DropboxHelperTools/Dropbox_u502/dbfseventsd
+49229 S      0:05.36    11:04:52   604988   4348   0.0  0.1 /Library/DropboxHelperTools/Dropbox_u502/dbfseventsd
+49230 S      0:03.52    11:04:52   596796    168   0.0  0.0 /Library/DropboxHelperTools/Dropbox_u502/dbfseventsd
+49667 Z      0:00.00    10:43:56        0      0   0.0  0.0 (RockMelt Helper )
+50255 RNs    0:48.33    10:21:22  2478440  17712   0.0  0.4 Metadata.framework/Versions/A/Support/mdworker
+50260 SNs    0:01.57    10:21:14  2467600   8472   0.0  0.2 Metadata.framework/Versions/A/Support/mdworker
+59821 S      0:05.73       21:12  2755212  13488   0.0  0.3 BetterTouchTool.app/Contents/MacOS/BetterTouchTool
+59838 S      0:58.93       20:06  1280472 115264   4.2  2.7 Google Chrome Helper EH.app/Contents/MacOS/Google Chrome Helper EH
+59840 S      0:00.06       20:03  2728292   4104   0.0  0.1 CoreMediaIOServices.framework/Resources/VDC.plugin/Contents/Resources/VDCAssistant
+59873 S      0:00.15       18:36   978168   9564   0.0  0.2 Google Chrome Helper EH.app/Contents/MacOS/Google Chrome Helper EH
+59879 S      0:00.62       18:13   410284   7584   0.0  0.2 GoogleTalkPlugin.app/Contents/MacOS/GoogleTalkPlugin
+59985 S      0:11.75       12:42  1183452 186476   0.6  4.4 Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+60000 Ss     0:00.16       11:57  2462380   3264   0.0  0.1 /usr/sbin/ocspd
+60084 S      0:05.61       07:53  1088904  42544   0.0  1.0 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+60162 S      0:01.72       04:09  1112792  30952   0.0  0.7 RockMelt Helper EH.app/Contents/MacOS/RockMelt Helper EH
+60191 S      0:07.54       02:22  1106164  82548   0.0  2.0 RockMelt Helper.app/Contents/MacOS/RockMelt Helper
+60229 Ss     0:00.01       00:43  2436388   1476   0.0  0.0 master
+60230 S      0:00.00       00:43  2435204   1440   0.0  0.0 pickup
+60231 S      0:00.00       00:43  2435276   1484   0.0  0.0 qmgr
+60242 S      0:00.00       00:00  2436128    248   0.1  0.0 /usr/sbin/cron
+60244 Ss     0:00.00       00:00  2435544    668   0.6  0.0 /bin/sh
+60246 RN     0:00.00       00:00  2435544    660   0.1  0.0 /bin/sh
+60251 RN     0:00.00       00:00  2434868    440   0.0  0.0 ps
+48323 Ss+    0:00.02    11:52:10  2435548    920   0.0  0.0 /bin/bash
+========================================================================
+Temperature Readings
+========================================================================
+CPU Core 1: 213.8 F
+CPU Core 2: 203 F
+SMART Disk Hitachi HTS545050B9SA02 (100315PBL400Q7KA7E8N): 95 F
+SMB NORTHBRIDGE CHIP DIE: 149 F
+SMC BATTERY: 93.2 F
+SMC BATTERY POSITION 2: 93.2 F
+SMC BATTERY POSITION 3: 89.6 F
+SMC BATTERY POSITION 4: 100.4 F
+SMC CPU A DIODE: 206.6 F
+SMC CPU A PROXIMITY: 147.2 F
+SMC GPU 1 CHIP: 141.8 F
+SMC GPU 1 HEAT SINK: 136.4 F
+SMC GPU DIODE: 165.2 F
+SMC LEFT PALM REST: 91.4 F
+SMC MAIN HEAT SINK 3: 132.8 F
+SMC MAIN LOGIC BOARD: 131 F
+SMC NORTHBRIDGE POS 1: 145.4 F

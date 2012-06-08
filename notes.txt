@@ -1,0 +1,4 @@
+========== /Volumes/HOME/neil/bin/killcan: Executed at Tue Jun  5 12:06:16 EDT 2012
+========== /Volumes/HOME/neil/bin/killcan: Killing PID 54946.
+========== /Volumes/HOME/neil/bin/killcan: Executed at Thu Jun  7 20:15:58 EDT 2012
+========== /Volumes/HOME/neil/bin/killcan: Killing PID 94159.
