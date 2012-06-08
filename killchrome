@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# killall(1) doesn't seem to find the Chrome processes corretly. Don't
+# know why. Instead we just find the main Canary process that is the
+# parent of all other Chrome processes and kill that. Once that is
+# done, the child processes commit suicide and die on their own.
+
+MATCHSTRING='Chrome.app/Contents/MacOS/Google Chrome' 
+
+(
+    echo "========== $0: Executed at $(date)"
+    pid=$(ps -ax -o pid,comm | grep "$MATCHSTRING" | awk '{ print $1; }')
+    echo "========== $0: Killing PID $pid."
+    kill $pid
+) >> $HOME/process-data/notes.txt 2>&1 
