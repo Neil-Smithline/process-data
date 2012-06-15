@@ -1,0 +1,18 @@
+========== /Volumes/HOME/neil/bin/killcan: Executed at Mon Jun 11 16:26:20 EDT 2012
+========== /Volumes/HOME/neil/bin/killcan: Killing PID 228.
+========== /Volumes/HOME/neil/bin/killff: Executed at Tue Jun 12 21:55:51 EDT 2012
+========== /Volumes/HOME/neil/bin/killff: Arguments are 'firefox plugin-container'
+kill -TERM 22542
+kill -TERM 22534
+========== /Volumes/HOME/neil/bin/killff: Executed at Thu Jun 14 09:15:16 EDT 2012
+========== /Volumes/HOME/neil/bin/killff: Arguments are 'firefox plugin-container'
+kill -TERM 46351
+kill -TERM 40927
+kill -TERM 40825
+========== /Volumes/HOME/neil/bin/killff: Executed at Thu Jun 14 12:58:04 EDT 2012
+========== /Volumes/HOME/neil/bin/killff: Arguments are 'firefox plugin-container'
+kill -TERM 50201
+kill -TERM 46464
+========== /Volumes/HOME/neil/bin/killff: Executed at Fri Jun 15 18:22:35 EDT 2012
+========== /Volumes/HOME/neil/bin/killff: Arguments are 'firefox plugin-container'
+No matching processes belonging to you were found
