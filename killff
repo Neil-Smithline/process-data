@@ -1,10 +1,27 @@
 #!/bin/sh
 
-# Actual binary executable name
+# You can send the ouput of killff to several different locations
+# (1) Log all killff operations
+LOGFILE="$HOME/process-data/notes.txt"
+# (2) Operate silently
+# LOGFILE="/dev/null"
+# (3) Send all output to stdout
+# LOGFILE="/dev/stdout"
+# (4) Send all output to stderr
+# LOGFILE="/dev/stderr"
+
+
+########################################################################
+# POTENTIALLY MACOSX SPECIFIC
+########################################################################
+
+# Actual binary executable names for FireFox
 NAMES="firefox plugin-container"
 
 (
     echo "========== $0: Executed at $(date)"
     echo "========== $0: Arguments are '$NAMES'"
     killall -v -m $NAMES
-) >> $HOME/process-data/notes.txt 2>&1 
+) >> "$LOGFILE" 2>&1 
+
+(sleep 5; open /Applications/Aurora.app) &
