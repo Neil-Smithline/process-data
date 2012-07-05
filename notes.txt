@@ -141,3 +141,7 @@ kill -TERM 85571
 kill -TERM 1491
 kill -TERM 1490
 kill -TERM 1460
+========== /Volumes/HOME/neil/bin/killff: Executed at Wed Jul  4 22:47:10 EDT 2012
+========== /Volumes/HOME/neil/bin/killff: Arguments are 'firefox plugin-container'
+kill -TERM 62626
+kill -TERM 60240
