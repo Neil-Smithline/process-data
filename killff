@@ -1,5 +1,7 @@
 #!/bin/sh
 
+USAGE=""       # Don't move this line
+
 # You can send the ouput of killff to several different locations
 # (1) Log all killff operations
 LOGFILE="$HOME/process-data/notes.txt"
@@ -24,4 +26,7 @@ NAMES="firefox plugin-container"
     killall -v -m $NAMES
 ) >> "$LOGFILE" 2>&1 
 
-(sleep 5; open /Applications/Aurora.app) &
+if [ $# -eq 0 ]; then
+    (sleep 5; open /Applications/Aurora.app) &
+fi
+
